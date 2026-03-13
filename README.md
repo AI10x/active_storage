@@ -23,7 +23,7 @@ This script allows you to upload **a single file** to your Space.
 - **How it works:** You run it passing a file path. It reads your credentials from `active_storage.yml` (or environment variables) and uses `boto3` to push the file to the cloud.
 - **Example Usage:**
   ```bash
-  python3 upload_to_spaces.py path/to/my_image.png
+  python3 upload_to_spaces.py --bucket your_bucket_name path/to/my_image.png
   ```
 
 ### 2. `sync_to_spaces.py`
