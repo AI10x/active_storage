@@ -1,0 +1,18 @@
+development:
+  service: DigitalOcean
+  access_key_id: 
+  secret_access_key: 
+  region: au
+  bucket: 
+  endpoint: 
+
+production:
+  service: DigitalOcean
+  access_key_id: 
+  secret_access_key: 
+  region: au
+  bucket: 
+  endpoint: 
+test:
+  service: Disk
+  root: <%= Rails.root.join("tmp/storage") %>
