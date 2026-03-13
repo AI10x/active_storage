@@ -1,0 +1,1 @@
+export XDG_RUNTIME_DIR=/run/user/$(id -u) && systemctl --user daemon-reload && systemctl --user enable do-storage-sync.timer && systemctl --user start do-storage-sync.timer && systemctl --user status do-storage-sync.timer

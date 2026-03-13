@@ -1,0 +1,3 @@
+#generate a cron job to upload the active storage files to digital ocean spaces
+#the cron job should run every 5 minutes
+#the cron job be based of systemctl service in a sciprt file to build the cron job

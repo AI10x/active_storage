@@ -1,0 +1,17 @@
+# Python virtual environments
+storage/
+venv/
+env/
+.env
+
+# __pycache__
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary storage files
+tmp/storage/
+
+# Systemd files (if inadvertently moved here)
+*.service
+*.timer

@@ -1,0 +1,19 @@
+development:
+  service: DigitalOcean
+  access_key_id: DO00K2WK2K7J7WP6ZVRC
+  secret_access_key: 6dlZ2C+AQo7vE87HCaS/4l3kcuOFVDgCHJ2WldXFTPw
+  region: au
+  bucket: ai10x
+  endpoint: https://ai10x.syd1.digitaloceanspaces.com
+
+production:
+  service: DigitalOcean
+  access_key_id: DO00K2WK2K7J7WP6ZVRC
+  secret_access_key: 6dlZ2C+AQo7vE87HCaS/4l3kcuOFVDgCHJ2WldXFTPw
+  region: au
+  bucket: ai10x
+  endpoint: https://ai10x.syd1.digitaloceanspaces.com
+
+test:
+  service: Disk
+  root: <%= Rails.root.join("tmp/storage") %>
